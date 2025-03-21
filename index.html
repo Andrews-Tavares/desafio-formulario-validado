@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio formulário</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="texto">
+            <h2>Ficou com dúvida? <br> nos mande uma mensagem!</h2>
+
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato
+                em menos de 24h.</p>
+        </div>
+
+        <form method="post" action="index.html">
+
+            <div class="texto-input">
+                <input type="text" class="formulario" name="nome" placeholder="Nome completo *">
+                <p class="campo-obrigatorio">Campo obrigatório</p>
+                <input type="text" class="formulario" name="email" placeholder="Email *">
+                <p class="campo-obrigatorio">Campo obrigatório</p>
+                <input type="text" class="formulario" name="telefone" placeholder="Telefone *">
+                <p class="campo-obrigatorio">Campo obrigatório</p>
+                <input type="text" class="formulario mensagem" name="mensagem" placeholder="Mensagem *">
+                <p class="campo-obrigatorio">Campo obrigatório</p>
+
+                <h5>*Campos obrigatórios </h5>
+
+                <button id="enviar" class="botao">Enviar</button>
+            </div>
+        </form>
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
