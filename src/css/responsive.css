@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .texto-input {
+        width: 100%;
+        height: auto;
+    }
+}

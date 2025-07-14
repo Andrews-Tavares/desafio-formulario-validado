@@ -55,6 +55,7 @@ main {
 
 .formulario.mensagem {
     height: 100px;
+    resize: none;
 }
 
 .botao {
